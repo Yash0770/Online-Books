@@ -1,11 +1,19 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import bookLogo from "../../imgs/book-world-logo.jpg";
 
 function Header() {
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
         <div className="container-fluid">
+          <div className="">
+            <img
+              src={bookLogo}
+              style={{ width: "100px", height: "60px", objectFit: "cover" }}
+              alt="logo-img"
+            />
+          </div>
           <Link className="navbar-brand" to="/">
             Book World
           </Link>
@@ -77,7 +85,7 @@ function Header() {
                 placeholder="Search"
                 aria-label="Search"
               />
-              <button className="btn btn-outline-success" type="submit">
+              <button className="btn btn-outline-primary" type="submit">
                 Search
               </button>
             </form>
