@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import bookLogo from "../../imgs/book-world-logo.jpg";
+import Profile from "../../imgs/images.png";
 
 function Header() {
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const toggleDropdown = () => {
+    setDropdownOpen(!false);
+  };
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -89,6 +96,19 @@ function Header() {
                 Search
               </button>
             </form>
+            <div className="mx-3">
+              <img
+                src={Profile}
+                alt="img"
+                onClick={toggleDropdown}
+                style={{ width: "50px", height: "50px", borderRadius: "25px" }}
+              />
+              {isDropdownOpen && (
+                <div className="">
+                  <ul>Logout</ul>
+                </div>
+              )}
+            </div>
           </div>
         </div>
       </nav>
