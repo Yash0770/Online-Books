@@ -1,3 +1,12 @@
 .background-color{
-    background-color: #4141a2;
+    background-color: #eef4ff;
 }
+.heading-color{
+    color: #30363c;
+}
+.hover-link{
+    color: #30363c;
+}
+/* .hover-link:hover{ */
+    /* color: ; */
+/* } */

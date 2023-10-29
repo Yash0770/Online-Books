@@ -1,11 +1,13 @@
 const book = [
   {
-    bookTitle: "bookTitle",
-    bookBody: "Book body",
+    id: 1,
+    bookTitle: "Secret Library",
+    bookBody: "Book about secret and sci-fiction in it.",
   },
   {
-    bookTitle: "bookTitle",
-    bookBody: "Book body",
+    id: 2,
+    bookTitle: "Friends",
+    bookBody: "Book about Six Friends who live in California and enjoy their life with happyness.",
   },
 ];
 
