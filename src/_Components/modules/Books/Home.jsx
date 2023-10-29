@@ -69,7 +69,8 @@ const nextPage =()=>{
           >
             <img
               src={secret}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
+              style={{ width: "94%", height: "150px", marginTop: '6px', marginLeft:'6px', 
+            }}
               className="card-img-top"
               alt="book-img"
             />
@@ -92,8 +93,9 @@ const nextPage =()=>{
           >
             <img
               src={friends}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
-              className="card-img-top new"
+              style={{ width: "94%", height: "150px", marginTop: '6px', marginLeft:'6px', 
+            }}
+              className="card-img-top"
               alt="book-img"
             />
             <div className="card-body p-2">
@@ -115,7 +117,8 @@ const nextPage =()=>{
           >
             <img
               src={secretA}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
+              style={{ width: "94%", height: "150px", marginTop: '6px', marginLeft:'6px', 
+            }}
               className="card-img-top"
               alt="book-img"
             />
@@ -138,7 +141,8 @@ const nextPage =()=>{
           >
             <img
               src={ai}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
+              style={{ width: "94%", height: "150px", marginTop: '6px', marginLeft:'6px', 
+            }}
               className="card-img-top"
               alt="book-img"
             />
