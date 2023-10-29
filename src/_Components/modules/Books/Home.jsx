@@ -93,7 +93,7 @@ const nextPage =()=>{
             <img
               src={friends}
               style={{ width: "100%", height: "150px", objectFit: "cover" }}
-              className="card-img-top"
+              className="card-img-top new"
               alt="book-img"
             />
             <div className="card-body p-2">
