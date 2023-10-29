@@ -92,7 +92,7 @@ const nextPage =()=>{
           >
             <img
               src={friends}
-              style={{ width: "100%", height: "150px", objectFit: "cover" }}
+              style={{ width: "100%", height: "150px", objectFit: "cover" }} 
               className="card-img-top"
               alt="book-img"
             />
